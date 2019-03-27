@@ -1,0 +1,1 @@
+<? LoadLib($CFG->Mode); ?>

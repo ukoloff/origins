@@ -1,0 +1,108 @@
+.Origin {
+    border-bottom: 1px dotted black;
+}
+
+Table.Hdr {
+    width: 100%;
+}
+
+Table.Hdr A {
+    text-decoration: none;
+}
+
+TD.Letters {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+
+TD.Letters A {
+    padding: 0 0.1ex;
+    margin: 0;
+    border: solid green 0;
+}
+
+TD.Letters A.Add {
+    font-size: 80%;
+    border: 1px solid gray;
+}
+
+TD.Letters A:hover {
+    background: #FFCCCC;
+}
+
+TD.Search {
+    background: #B0D0F0;
+    font-size: 80%;
+    border: solid black;
+    border-width: 1px 1px 0 1px;
+    border-bottom: none;
+    padding: 0 0.3ex;
+}
+
+TD.Lower {
+    background: #B0D0F0;
+    border: solid black;
+    border-width: 0 1px 1px 1px;
+    padding: 0 0.5ex;
+}
+
+Div#Search.Off {
+    display: none;
+}
+
+Div#Search.On {
+    display: block;
+}
+
+Div#Search Form {
+    margin: 0;
+}
+
+Div#NoSearch {
+    line-height: 1px;
+}
+TD.Letters A.This0,
+TD.Letters A.This1 {
+    border-width: 1px;
+}
+TD.Letters A.Head1 {
+    border-width: 1px 0 0 1px;
+}
+TD.Letters A.Head0 {
+    border-width: 0 0 1px 1px;
+}
+TD.Letters A.Tail1 {
+    border-width: 0 1px 1px 0;
+}
+
+TD.Letters A.Tail0 {
+    border-width: 1px 1px 0 0;
+}
+
+A.Edit {
+    text-decoration: none;
+}
+
+A.Edit:link {
+    color: navy;
+}
+
+A.Edit:visited {
+    color: navy; 
+}
+
+A.Edit:active {
+    color: red;
+}
+
+A.Edit:hover {
+    color: red;
+}
+
+
+Span.TimeStamp {
+    color: navy;
+    font-size: 85%;
+}
